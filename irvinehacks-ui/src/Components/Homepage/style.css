@@ -1,0 +1,139 @@
+.TopicContainer {
+    width: 685px;
+    height: 246px;
+    position: relative;
+  }
+  
+  .Topic {
+    position: absolute;
+    color: black;
+    font-size: 36px;
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+    word-wrap: break-word;
+    border-radius: 8px;
+    background: #BD88FE;
+    text-align: center;
+  }
+  
+  .Algorithms {
+    width: 289px;
+    height: 64px;
+    left: 0;
+    top: 0;
+  }
+  
+  .Ai {
+    width: 376px;
+    height: 64px;
+    left: 309px;
+    top: 0;
+  }
+  
+  .Python {
+    width: 224px;
+    height: 64px;
+    left: 461px;
+    top: 93px;
+  }
+  
+  .Fp {
+    width: 444px;
+    height: 64px;
+    left: 0;
+    top: 93px;
+  }
+  
+  .Sql {
+    width: 121px;
+    height: 64px;
+    left: 0;
+    top: 182px;
+  }
+  
+  .Java {
+    width: 138.58px;
+    height: 64px;
+    left: 138px;
+    top: 182px;
+  }
+  
+  .Cpp {
+    width: 119px;
+    height: 64px;
+    left: 566px;
+    top: 179px;
+  }
+  
+  .Db {
+    width: 255px;
+    height: 64px;
+    left: 294px;
+    top: 182px;
+  }
+  
+  .FindOpponent{
+    margin-left: 200px;
+    margin-top: 150px;
+    width: 380px;
+    height: 80px;
+    position: absolute;
+    color: black;
+    font-size: 36px;
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+    word-wrap: break-word;
+    border-radius: 8px;
+    background: #BD88FE
+  }
+
+  .FindOpponent:hover{
+    background-color: #864bcf;
+    color: white;
+  }
+
+  .parent{
+    display: flex;
+    overflow-y: hidden;
+    height: calc(100vh - 80px);
+    margin-top: 80px;
+  }
+  
+  .left-container{
+    width: 70%;
+    height: calc(100vh - 80px);
+    background-color: #010409;
+  }
+
+  .right-container{
+    width: 30%;
+    height: calc(100vh - 80px); /* Set height to fill viewport */
+    background-color: #22252C;
+  }
+
+   .YourStats{
+    display: inline-block;
+    margin-left: 35%;
+   }
+
+   .right-stuff{
+    margin-left: 80px;
+    margin-top: 20px;
+   }
+
+   #purple-square {
+    margin-top: 40px;
+    margin-left: 220px;
+    width: 120px;
+    height: 40px;
+    background-color: #BD88FE; /* Purple color */
+    color: #22252C;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #text {
+    font-size: 20px;
+    
+  }

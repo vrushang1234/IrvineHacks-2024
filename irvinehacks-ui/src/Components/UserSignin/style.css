@@ -1,0 +1,48 @@
+#signin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: black;
+  }
+  
+  .inputtext{
+    width: 75%;
+    height: 30px;
+    border: 0px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#name{
+    position: absolute;
+    top: 20%;
+    left: 12.5%;
+    transform:translateY(-50%);
+}
+
+
+#email{
+    position: absolute;
+    top: 30%;
+    left: 12.5%;
+    transform:translateY(-50%);
+}
+#password{
+    position: absolute;
+    top: 40%;
+    left: 12.5%;
+    transform:translateY(-50%);
+}
+
+#confirm{
+    position: absolute;
+    top: 50%;
+    left: 12.5%;
+    transform:translateY(-50%);
+}
+
+  #signin-container{
+    text-align: center;
+    position: relative;
+    }
