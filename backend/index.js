@@ -30,6 +30,7 @@ io.on("connection", (socket) => {
       socket.emit("output", data);
     });
     let pythonFile;
+    console.log(code.qno);
     switch (code.qno) {
       case 0:
         pythonFile = "bits_reverse.py";
@@ -40,12 +41,10 @@ io.on("connection", (socket) => {
       case 2:
         pythonFile = "merge_sort.py";
     }
-    starttime = performance.now();
     exec(`python ${pythonFile}`)
       .then((result) => {
         totaltime = performance.now() - starttime;
-        console.log(totaltime);
-        socket.emit("success", "Success!!");
+        socket.emit("success", result.stdout);
       })
       .catch((error) => {
         console.error("Error executing Python script:", error.stderr);
