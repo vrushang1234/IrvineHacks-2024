@@ -1,0 +1,40 @@
+#signin{
+    background-color: #0d1015;
+    height: calc(100vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#profile{
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#signin-container{
+    height: 600px;
+    width: 500px;
+    border-radius: 30px;
+    background-color: #bb86fc;
+    position: relative;
+}
+.button{
+    height: 60px;
+    width: 180px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: white;
+    background-color: #0d1015;
+    font-weight: 800;
+    position: absolute;
+    top: 70%;
+}
+
+.signin{
+    left: 10%;
+}
+
+.signup{
+    right: 10%;
+}
