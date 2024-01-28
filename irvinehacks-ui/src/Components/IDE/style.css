@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+#IDE{
+    background-color: #0D1015;
+    height: calc(100vh - 80px);
+    margin-top: 80px;
+    border: 0px solid black;
+    font-family: 'Space Mono', monospace;
+}
+#players-container{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.player{
+    background-color: white;
+    width: 300px;
+    height: 70px;
+    border-radius: 8px;
+}
+.player-pfp{
+    height: 70px;
+    width: 70px;
+}
+
+.pfp1{
+    float: left;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgb(123, 146, 90);
+}
+
+.pfp2{
+    float: right;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(101, 139, 191);
+}
+#editor{
+    background-color: white;
+    width: 100vw;
+    height: 90%;
+    display: flex;
+}
+#question{
+    height: 100%;
+    width: 50%;
+    background-color: #21252c;
+    color: white;
+}
+
+#code-test{
+    height: 100%;
+    width: 50%;
+}
+#code{
+    height: 60%;
+}
+#test{
+    height: 40%;
+}
+
+#submit{
+    width: 150px;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #6ff33a;
+    height: 70%;
+    margin-left: 1%;
+}
+#run{
+    margin-right: 1%;
+    width: 150px;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #2ba3ff;
+    height: 70%;
+}
