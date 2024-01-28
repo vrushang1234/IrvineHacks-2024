@@ -62,6 +62,7 @@ export default function IDE() {
           <h3 style={{ textAlign: "center", marginTop: "3px" }}>
             Vrushang Anand
           </h3>
+          <h3 style={{ textAlign: "center", marginTop: "3px" }}>800</h3>
         </div>
         <div
           style={{
@@ -77,7 +78,8 @@ export default function IDE() {
         </div>
         <div className="player">
           <div className="player-pfp pfp2"></div>
-          <h3 style={{ textAlign: "center", marginTop: "3px" }}>Noob</h3>
+          <h3 style={{ textAlign: "center", marginTop: "3px" }}>Bot</h3>
+          <h3 style={{ textAlign: "center", marginTop: "3px" }}>800</h3>
         </div>
       </div>
       <div id="editor">

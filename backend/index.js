@@ -41,10 +41,11 @@ io.on("connection", (socket) => {
       case 2:
         pythonFile = "merge_sort.py";
     }
+    let starttime = performance.now();
     exec(`python ${pythonFile}`)
       .then((result) => {
-        totaltime = performance.now() - starttime;
         socket.emit("success", result.stdout);
+        let totaltime = performance.now() - starttime;
       })
       .catch((error) => {
         console.error("Error executing Python script:", error.stderr);
